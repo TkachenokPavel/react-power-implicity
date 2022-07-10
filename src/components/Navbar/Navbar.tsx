@@ -4,9 +4,7 @@ import logo from '../assets/logo.svg'
 export const Navbar = () => {
     return (
         <nav className="navbar">
-            <a href="!#" className="navbar__logo">
-                <img src={logo} alt="nav logo" />
-            </a>
+            <img className='navbar__logo' src={logo} alt="nav logo" />
             <ul className="navbar__list">
                 <li className='navbar__item'>
                     <a href="!#" className="navbar__link">Features</a>
