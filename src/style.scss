@@ -42,3 +42,15 @@ body {
     border-radius: 32px;
     overflow: hidden;
 }
+
+@mixin sm {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
