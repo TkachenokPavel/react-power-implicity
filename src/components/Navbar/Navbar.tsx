@@ -1,10 +1,10 @@
 import './style.scss'
-import logo from '../../assets/logo.svg'
+import { ReactComponent as Logo } from '../../assets/logo.svg'
 
 export const Navbar = () => {
     return (
         <nav className="navbar">
-            <img className='navbar__logo' src={logo} alt="nav logo" />
+            <Logo className='navbar__logo' />
             <ul className="navbar__list">
                 <li className='navbar__item'>
                     <a href="!#" className="navbar__link">Features</a>
